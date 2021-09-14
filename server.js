@@ -3,7 +3,7 @@ const cors = require('cors');
 require('dotenv').config()
 
 const mongoose = require("mongoose");
-const url = process.env["MONGO_URI"];
+const url = process.env.MONGO_URI;
 const { Schema } = mongoose;
 const multer = require('multer')
 const {GridFsStorage}  = require('multer-gridfs-storage')
